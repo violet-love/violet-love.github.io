@@ -1,8 +1,10 @@
-h1, head {
+h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
     color: #000;
     text-align: left;
+}
+head {
     background-color: #E6E6FA;
-    margin-top: 0px;
+    min-height: auto;
 }
