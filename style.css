@@ -1,9 +1,7 @@
-.title {
+h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
     color: #000;
-}
-head {
     text-align: left;
     vertical-align: middle;
     background-color: #E6E6FA;
