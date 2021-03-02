@@ -3,6 +3,7 @@ h1 {
     font-size: 50px;
     color: #000;
     text-align: left;
+    vertical-align: middle;
     background-color: #E6E6FA;
     height: 75px;
 }
