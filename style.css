@@ -17,5 +17,6 @@ img {
 }
 .t-image {
     position: relative; /* Declared position allows for location changes */
-    top: -50px; /* Moves the image 2px closer to the top of the page */
+    top: -80px; /* Moves the image 2px closer to the top of the page */
+    border: 3px solid grey;
 }
