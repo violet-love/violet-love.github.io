@@ -1,26 +1,32 @@
-header{
-  background-color: lavender;
-}
 h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
-    color: #000;
-    text-align: center;
-    height: 150px;
-    margin:0;
-    padding:0;
-    line-height: 50px; 
-    display: inline-block; 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 45px;
+  color: #000;
+  text-align: center;
+  height: 150px;
+  margin:0;
+  padding:0;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 50px; 
+  display: inline-block; 
+}
+h2{
+font-family: 'Times New Roman', Times, serif;
+font-size: 24px;
+padding-top: 0;
+margin-top: 0;
 }
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-radius: 50%;
+width: 200px;
+height: 200px;
 }
 .t-image {
-    border: 4px solid #696969;
-    align-items: center
+  border: 4px solid lavender;
+  align-items: center
 }
