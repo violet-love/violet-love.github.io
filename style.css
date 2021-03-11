@@ -1,25 +1,26 @@
+header{
+  background-color: lavender;
+}
 h1 {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 50px;
-  color: #000;
-  text-align: left;
-  vertical-align: middle;
-  background-color: #E6E6FA;
-  height: 150px;
-  margin:0;
-  padding:0;
-  line-height: 50px;  
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: #000;
+    text-align: center;
+    height: 150px;
+    margin:0;
+    padding:0;
+    line-height: 50px; 
+    display: inline-block; 
 }
 img {
-display: block;
-margin-left: auto;
-margin-right: auto;
-border-radius: 50%;
-width: 200px;
-height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
 }
 .t-image {
-  position: relative; /* Declared position allows for location changes */
-  top: -100px; /* Moves the image 2px closer to the top of the page */
-  border: 4px solid #696969;
+    border: 4px solid #696969;
+    align-items: center
 }
