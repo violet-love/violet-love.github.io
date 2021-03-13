@@ -1,49 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-    <link rel="stylesheet" type="text/css" href="style.css">
-  
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Violet Love - Building Accessible Software for All</title>
-</head>
-<body>
- <main>
-  <div style = "background-color: #663399;text-align: center;">
-      <h1><a href = "index.html" style = "text-decoration: none; color: black; padding: 50px 0; display: inline-block;">Violet Love - Software Engineer</a></h1>
-      <h2><a href = "index.html" style = "text-decoration: none; color: black; display: inline-block;">Building Accessible Software for All</a></h2>
-      <a href = "index.html"><img class = "t-image" src = "images/img_vi.jpg" alt = "Violet Love"></a>
-    </div>
-    </main>
-    <div>
-      <article>
-      <h3>Introducing... Violet Love</h3>
-      <p>Hello! I'm Vi and thank you so much for stopping by my site! I'm a full stack developer with a specialization in developing accessible User Interfaces. I'm currently in Portland, Oregon, but will be moving to Seattle, Washington mid 2022, and perhaps earlier.</p>
-      </article>
-    </div>
-    <div>
-      <article>
-      <h3>About Me!</h3>
-      <p> I've loved the Apple ecosystem since I was a teenager, and enjoy coding my own websites and apps. I have a special love for Swift and Xcode, but I have experience with several coding environments. I know Swift, JS, Python, CSS, and HTML, and am always looking at new languages. I have a passion for beautiful and accessible design, and making tools and apps that work for everyone irregardless of their ability or background. I love working with others, apps and software generally come out better and more accessible with multiple minds and backgrounds working on it. I am strong supporter of pair programming. From experience it makes stronger engineers and better designed software. Some of my interests outside of software engineering are:</p>
-      <ul>
-        <li>Computer Games</li>
-        <li>Music</li>
-        <li>Podcasts</li>
-        <li>Cats and Rats</li>
-      </ul>
-       </article>
-    </div>
-    <div>
-      <footer>
-        <h3 style = "text-align: left">Contact Info</h3>
-      <ol>
-          <li><a href = "mailto: violetlove9419@icloud.com">E-mail</a></li>
-          <li><a href = "https://www.linkedin.com/in/violet-love-2a72621a5/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-          <li><a href = "https://github.com/violet-love">GitHub</a></li>
-      </ol>
-      </footer>
-    </div>  
-</body>
+body{
+  background-color: #E6E6FA;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    color: #000;
+    text-align: center;
+    height: 150px;
+    margin:0;
+    padding:0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    line-height: 50px; 
+    display: inline-block; 
+}
+h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  padding-top: 0;
+  margin-top: 0;
+}
+h3{
+  text-align: center;
 
-</html>
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.t-image {
+    border: 4px solid lavender;
+    align-items: center
+}
+/* unvisited link */
+a:link {
+  color: #0000EE;
+}
+
+/* visited link */
+a:visited {
+  color: #551A8B;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF0000;
+}
+
+/* selected link */
+a:active {
+  color: #800080;
+}
